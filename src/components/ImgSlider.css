@@ -1,0 +1,63 @@
+.imgSlider{
+    margin-top: 20px;
+}
+
+.imgSlider > button{
+    opacity: 0;
+    height: 100%;
+    width: 5vw;
+    z-index: 1;
+}
+
+.imgSlider > button:hover{
+    opacity: 1;
+    transition: opacity 0.2s ease 0s;
+}
+
+.imgSlider > ul > li > button::before{
+    font-size: 10px;
+    color: rgb(150, 158, 171);
+}
+
+.imgSlider > ul > li.slick-active > button::before{
+    color: white;
+}
+
+.imgSlider .slick-list {
+    overflow: initial;
+}
+
+.imgSlider .slick-prev {
+    left: -75px;
+}
+
+.imgSlider .slick-next {
+    right: -75px;
+}
+
+.imgSlider__container{
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.imgSlider__container > a{
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+      rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 4px
+}
+
+.imgSlider__container > a:hover{
+    padding: 0;
+    border: 4px solid rgba(249, 249, 249, 0.8);
+    transition-duration: 300ms;
+}
+
+.imgSlider__container > a > img{
+    width: 100%;
+    height: 100%;
+}
