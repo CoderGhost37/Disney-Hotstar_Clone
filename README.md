@@ -1,3 +1,9 @@
+# Disney-Hotstar-Clone
+
+![App Screenshot](public/images/Disney-Hotstar-Clone.jpg)
+
+Using React & Firebase. This application includes signIn/signOut functionality, modern design and is fully responsive.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
